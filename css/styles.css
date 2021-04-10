@@ -1,0 +1,221 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+header {
+  background-image: url("/images/moneyjar.jpg");
+  height: 160vh;
+  background-size: cover;
+}
+
+h1 {
+  margin: 0
+  color: #fff;
+  font-size: 200%;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  word-spacing: 4px;
+}
+
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+  font-size: 200%;
+  word-spacing: 2px;
+  text-align: cetner;
+  margin-bottom: 30px;
+}
+
+h2:after {
+  display: block;
+  height: 2px;
+  background-color: #e67e22;
+  content: " ";
+  width: 100px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.row {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.hero-text-box {
+  position: absolute;
+  width: 1140px;
+  top: 50%;
+  left: 50%;
+  transform: tranlate(-50%, -50%);
+}
+
+.button {
+  display: inline-block;
+  padding:10px 30px;
+  font-weight: 300;
+  text-decoration: none;
+  border-radius: 200px;
+  color: #fff
+}
+
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  padding: 10px; 30px;
+  font-weight: 300;
+  text-decoration: none;
+  border-radius: 200px;
+  transition: background-color 0.2s;
+}
+
+
+.btn-full:link,
+.btn-full:visited {
+  background-color: green;
+  border: 1px solid green;
+  color: #fff;
+  margin-right: 15px;
+}
+
+.btn-ghost:link,
+.btn-ghost:link {
+  border: 1px solid #e67e22;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #cf6d17;
+}
+
+.logo{
+  height: 100px;
+  width: auto;
+  float: left;
+  margin-top: 20px;
+}
+
+.main-nav {
+  float: right;
+  list-style: none;
+  margin-top: 35px;
+}
+
+.main-nav li {
+  display: inline-block;
+  margin-left: 40px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 90%;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+  border-bottom: 2px solid green;
+}
+
+/** COPY TEXT **/
+
+.long-copy {
+  line-height: 145%;
+  width: 70%;
+  margin-left: 15%;
+}
+
+section {
+  padding: 80px 0;
+}
+
+
+
+/** STEP BOXEST **/
+
+.steps-box {
+  margin-top: 30px
+}
+
+.steps-box:first-child {
+  text-align: right;
+}
+
+.steps-box:last-child {
+
+}
+
+
+/***PATH PLANS ****/
+
+.section-tours {
+  background-color: grey;
+  padding: 25rem 0;
+}
+
+
+/**** TESTIMONIALS ***/
+
+blockquote {
+  padding: 2%;
+  font-style: italic;
+  line-height: 145%;
+  position: relative;
+  margin-top: 40px;
+}
+
+blockquote: before {
+  content: "\201C";
+  font-size: 500%;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 3px
+}
+
+.testimonial {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)), url("/images/testimonals-bg.jpg");
+  background-size: cover;
+  color: #fff;
+  background-attachment: fixed;
+}
+
+
+/**COURSE SIGN UP **/
+
+.section-plans {
+  background-color:#f4f4f4
+}
+
+.plan-box {
+  background-color: #fff;
+  border-radius: 5px;
+  width: 90%;
+  margin-left: 5%;
+}
+
+.plan-box div {
+  padding: 15px;
+  border-bottom: 1px solid #e8e8;
+}
+
+.plan-price {
+  font-size: 300%;
+  font-weight: 100;
+}
+
+.plan-price span {
+  font-size: 100%;
+}
+
+.plan-price-meal {
+  font-size: 80%;
+}
