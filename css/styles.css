@@ -9,6 +9,7 @@ header {
   background-image: url("/images/moneyjar.jpg");
   height: 160vh;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 h1 {
@@ -27,14 +28,14 @@ html {
 h2 {
   font-size: 200%;
   word-spacing: 2px;
-  text-align: cetner;
+  text-align: center;
   margin-bottom: 30px;
 }
 
 h2:after {
   display: block;
   height: 2px;
-  background-color: #e67e22;
+  background-color: green;
   content: " ";
   width: 100px;
   margin: 0 auto;
@@ -52,6 +53,45 @@ h2:after {
   top: 50%;
   left: 50%;
   transform: tranlate(-50%, -50%);
+}
+
+/* --- ICONS --- */
+.icon-big {
+  font-size: 350%;
+  display: block;
+  color: e67e22;
+  margin-bottom: 10px;
+}
+
+.icon-small {
+  font-size: 120%;
+  width: 30px
+  text-align: center;
+  margin-right: 10px;
+  display: inline-block;
+  color: green;
+
+  line-height: 120%;
+  vertical-align: middle;
+  margin-top: -5px;
+}
+
+
+/* -- LINKS */
+
+a:link,
+a:visited {
+  color: green;
+  text-decoration: none;
+  padding-bottom: 1px;
+  border-bottom: 1px solid #green;
+  transition: border-bottom 0.2s, color 0.2s;
+}
+
+a:hover,
+a:active {
+  color: #555;
+  border-bottom: 1px solid transparent;
 }
 
 .button {
@@ -172,6 +212,20 @@ blockquote {
   margin-top: 40px;
 }
 
+
+cite {
+  font-size: 90%;
+  margin-top: 25px;
+}
+
+cite img {
+  height: 45px;
+  border-radius: 50%;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+
 blockquote: before {
   content: "\201C";
   font-size: 500%;
@@ -200,22 +254,103 @@ blockquote: before {
   border-radius: 5px;
   width: 90%;
   margin-left: 5%;
+  box-shadow: 0 2px 2px #efefef;
 }
 
 .plan-box div {
   padding: 15px;
-  border-bottom: 1px solid #e8e8;
+  border-bottom: 1px solid green;
+}
+
+.plan-box div:first-child {
+  background-color: #fcfcfc;
+}
+
+.plan-box div:last-child {
+  text-align: center;
+  border: 0;
 }
 
 .plan-price {
   font-size: 300%;
+  margin-bottom: 10px
   font-weight: 100;
+  color: green;
 }
 
 .plan-price span {
-  font-size: 100%;
+  font-size: 30%;
+  font-weight: 300;
 }
 
-.plan-price-meal {
+.plan-price-month {
   font-size: 80%;
 }
+
+.plan-box ul {
+  list-style: none;
+}
+
+.plan-box li {
+  padding: 5px 0;
+}
+
+
+
+
+/* Forms */
+
+.contact-form {
+  width: 80%;
+  margin: 0 auto;
+}
+
+input[type=text],
+input[type=email],
+select,
+textarea {
+  width: 100%;
+  padding: 7px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+
+textarea {
+  height: 100px;
+}
+
+input[type=checkbox] {
+  margin: 10px 5px 10px 0;
+}
+
+/* Footer */
+
+footer {
+  background-color: #333;
+}
+
+.footer-nav {
+  list-style: none;
+  float: left;
+}
+
+.social-icons {
+  list-style: none;
+  float: right;
+}
+
+.footer-nav li,
+.social-icons li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.footer-nav li:last-child,
+.social-links li: last-child {
+  margin-right: 0
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-links:
