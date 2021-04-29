@@ -6,7 +6,7 @@
 
 
 header {
-  background-image: url("/images/moneyjar.jpg");
+  background-image: url("images/moneyjar.jpg");
   height: 160vh;
   background-size: cover;
   background-attachment: fixed;
