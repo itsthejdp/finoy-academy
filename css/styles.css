@@ -6,7 +6,7 @@
 
 
 header {
-  background-image: url("images/moneyjar.jpg");
+  background-image: url("/finoy-academy/images/moneyjar.jpg");
   height: 160vh;
   background-size: cover;
   background-attachment: fixed;
@@ -236,7 +236,7 @@ blockquote: before {
 }
 
 .testimonial {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)), url("images/testimonals-bg.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)), url("/finoy-academy/images/testimonals-bg.jpg");
   background-size: cover;
   color: #fff;
   background-attachment: fixed;
